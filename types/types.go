@@ -85,6 +85,7 @@ type StreamSetting struct {
 
 type TlsSettings struct {
 	AllowInsecure bool `json:"allowInsecure"`
+	ServerName string `json:"serverName"`
 }
 
 type WsSettings struct {

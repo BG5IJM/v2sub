@@ -169,6 +169,7 @@ func main() {
 
 		var tlssettings = types.TlsSettings{
 		    AllowInsecure : true,
+		    ServerName : node.Host,
 		}
 
 		var headers = types.Headers{
